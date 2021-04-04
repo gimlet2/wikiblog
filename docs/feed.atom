@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://restmonkeys.com</id>
     <title>Andrei&apos;s tech blog</title>
-    <updated>2021-04-04T21:17:27.850Z</updated>
+    <updated>2021-04-04T21:20:37.294Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://restmonkeys.com"/>
     <link rel="self" href="https://restmonkeys.com/feed.atom"/>

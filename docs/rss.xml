@@ -4,7 +4,7 @@
         <title>Andrei&apos;s tech blog</title>
         <link>https://restmonkeys.com</link>
         <description>restmonkeys.com blog</description>
-        <lastBuildDate>Sun, 04 Apr 2021 21:17:27 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Apr 2021 21:20:37 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://restmonkeys.com/feed.atom" rel="self" type="application/rss+xml"/>
