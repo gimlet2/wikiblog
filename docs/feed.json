@@ -1,0 +1,23 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Andrei's tech blog",
+    "home_page_url": "https://restmonkeys.com",
+    "feed_url": "https://restmonkeys.com/feed.json",
+    "description": "restmonkeys.com blog",
+    "items": [
+        {
+            "id": "https://restmonkeys.com/2016/05/05/kata/",
+            "url": "https://restmonkeys.com/2016/05/05/kata/",
+            "title": "Kata for software developers",
+            "summary": "Build a blog with VuePress. With static site generator, it's pretty easy to build your own blog. If you're familiar with Vue, VuePress could be a good choice. Even though you've never used vue before, you can still use the out-of-box theme.",
+            "date_modified": "2016-05-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2016/11/16/kottpd/",
+            "url": "https://restmonkeys.com/2016/11/16/kottpd/",
+            "title": "Kottpd — HTTP Server in pure Kotlin",
+            "summary": "In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...",
+            "date_modified": "2016-11-16T00:00:00.000Z"
+        }
+    ]
+}

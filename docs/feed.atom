@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://restmonkeys.com</id>
+    <title>Andrei&apos;s tech blog</title>
+    <updated>2021-04-04T21:16:09.639Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://restmonkeys.com"/>
+    <link rel="self" href="https://restmonkeys.com/feed.atom"/>
+    <subtitle>restmonkeys.com blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Kata for software developers]]></title>
+        <id>https://restmonkeys.com/2016/05/05/kata/</id>
+        <link href="https://restmonkeys.com/2016/05/05/kata/">
+        </link>
+        <updated>2016-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Build a blog with VuePress. With static site generator, it's pretty easy to build your own blog. If you're familiar with Vue, VuePress could be a good choice. Even though you've never used vue before, you can still use the out-of-box theme.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kottpd — HTTP Server in pure Kotlin]]></title>
+        <id>https://restmonkeys.com/2016/11/16/kottpd/</id>
+        <link href="https://restmonkeys.com/2016/11/16/kottpd/">
+        </link>
+        <updated>2016-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...]]></summary>
+    </entry>
+</feed>
