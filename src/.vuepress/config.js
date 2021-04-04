@@ -67,16 +67,19 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-    ['@vuepress/blog',{
+    ['@vuepress/blog', {
       feed: {
         canonical_base: 'https://restmonkeys.com',
-       },
+      },
+      sitemap: {
+        hostname: 'https://restmonkeys.com'
+      },
       frontmatters: [
         {
           // Unique ID of current classification
           id: 'tag',
           // Decide that the frontmatter keys will be grouped under this classification
-          keys: ['tag','tags'],
+          keys: ['tag', 'tags'],
           // Path of the `entry page` (or `list page`)
           path: '/tag/',
           // Layout of the `entry page`
