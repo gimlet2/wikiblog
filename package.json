@@ -1,0 +1,20 @@
+{
+  "name": "restmonkeys-blog",
+  "version": "0.0.1",
+  "description": "restmonkeys.com blog",
+  "main": "index.js",
+  "authors": {
+    "name": "gimlet2",
+    "email": ""
+  },
+  "repository": "https://github.com/gimlet2/wikiblog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.8.2"
+  }
+}
