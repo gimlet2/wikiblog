@@ -68,6 +68,9 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     ['@vuepress/blog',{
+      feed: {
+        canonical_base: 'https://restmonkeys.com',
+       },
       frontmatters: [
         {
           // Unique ID of current classification
