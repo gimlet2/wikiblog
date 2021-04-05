@@ -108,7 +108,7 @@ module.exports = {
           // Path of the `entry page` (or `list page`)
           path: '/',
           pagination: {
-            lengthPerPage: 10,
+            lengthPerPage: 5,
           },
         },
       ],
