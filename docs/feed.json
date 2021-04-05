@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Andrei's tech blog",
+    "title": "RestMonkeys tech blog",
     "home_page_url": "https://restmonkeys.com",
     "feed_url": "https://restmonkeys.com/feed.json",
     "description": "restmonkeys.com blog",
@@ -64,6 +64,13 @@
             "summary": "I have been doing development for JVM platform for quite some time already. It was Java back in time, now it is Kotlin. And everything seems logical here — here is your Maven , **Gradl ...",
             "image": "https://restmonkeys.com/./images/2018-01-06-1.png",
             "date_modified": "2018-01-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2018/02/02/flask/",
+            "url": "https://restmonkeys.com/2018/02/02/flask/",
+            "title": "Prometheus, Python, Flask",
+            "summary": "Python based apps are significant part of the ecosystem in our company. In the era of microservices there is really no difference which technology is in use under the hood. But each service should ...",
+            "date_modified": "2018-02-02T00:00:00.000Z"
         },
         {
             "id": "https://restmonkeys.com/2018/03/03/karma/",
