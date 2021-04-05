@@ -94,6 +94,13 @@
             "summary": "As you probably know Java 10 was recently released. Not so many new features. At least for Kotlin developers… But there are [several improve ...",
             "image": "https://restmonkeys.com/./images/2018-03-26-1.png",
             "date_modified": "2018-03-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2018/04/18/docker/",
+            "url": "https://restmonkeys.com/2018/04/18/docker/",
+            "title": "Dockerizing Java 10 Spring Boot app",
+            "summary": "In my previous article I’ve been talking about using Java 10 to build and run your Spring Boot app. Now it is time to talk how ...",
+            "date_modified": "2018-04-18T00:00:00.000Z"
         }
     ]
 }
