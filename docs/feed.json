@@ -18,6 +18,14 @@
             "title": "Kottpd — HTTP Server in pure Kotlin",
             "summary": "In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...",
             "date_modified": "2016-11-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2017/07/21/code-shaing/",
+            "url": "https://restmonkeys.com/2017/07/21/code-shaing/",
+            "title": "Code sharing between Kotlin and Kotlin-Native",
+            "summary": "Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — [Kotlin-Native](https://github.com/JetBrain ...",
+            "image": "https://restmonkeys.com/../images/2017-07-21-1.jpeg",
+            "date_modified": "2017-07-21T00:00:00.000Z"
         }
     ]
 }
