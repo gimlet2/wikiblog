@@ -33,6 +33,13 @@
             "title": "Kafka usage — tips&hints",
             "summary": "Today we will talk about Apache Kafka. As you probably already know, Kafka is “a distributed streaming platform”, so it could be used as Queue, Message Bus,&nbsp;etc.\n\nBut ...",
             "date_modified": "2017-08-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2017/09/13/sentri/",
+            "url": "https://restmonkeys.com/2017/09/13/sentri/",
+            "title": "Sentri.io — errors handling",
+            "summary": "Today I want to talk about one service I’ve discovered for myself last week. As you probably already got from article title it is Sentry.io. This open source project helps you to ...",
+            "date_modified": "2017-09-13T00:00:00.000Z"
         }
     ]
 }

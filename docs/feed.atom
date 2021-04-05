@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://restmonkeys.com</id>
     <title>Andrei&apos;s tech blog</title>
-    <updated>2021-04-05T12:29:01.525Z</updated>
+    <updated>2021-04-05T12:40:00.239Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://restmonkeys.com"/>
     <link rel="self" href="https://restmonkeys.com/feed.atom"/>
@@ -40,5 +40,13 @@
         <summary type="html"><![CDATA[Today we will talk about Apache Kafka. As you probably already know, Kafka is “a distributed streaming platform”, so it could be used as Queue, Message Bus,&nbsp;etc.
 
 But ...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sentri.io — errors handling]]></title>
+        <id>https://restmonkeys.com/2017/09/13/sentri/</id>
+        <link href="https://restmonkeys.com/2017/09/13/sentri/">
+        </link>
+        <updated>2017-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today I want to talk about one service I’ve discovered for myself last week. As you probably already got from article title it is Sentry.io. This open source project helps you to ...]]></summary>
     </entry>
 </feed>
