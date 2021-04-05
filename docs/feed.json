@@ -86,6 +86,14 @@
             "title": "Karma.js, Headless Chrome and Docker",
             "summary": "Today I’ve come back to frontend project I’m involved. I have no idea what have happened while I was away for different things but our Karma.js tests stop&nbsp;working.\n\nThe project is done with * ...",
             "date_modified": "2018-03-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2018/03/26/java10/",
+            "url": "https://restmonkeys.com/2018/03/26/java10/",
+            "title": "Java 10 — migration story",
+            "summary": "As you probably know Java 10 was recently released. Not so many new features. At least for Kotlin developers… But there are [several improve ...",
+            "image": "https://restmonkeys.com/./images/2018-03-26-1.png",
+            "date_modified": "2018-03-26T00:00:00.000Z"
         }
     ]
 }
