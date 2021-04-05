@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://restmonkeys.com</id>
     <title>Andrei&apos;s tech blog</title>
-    <updated>2021-04-05T12:40:00.239Z</updated>
+    <updated>2021-04-05T12:46:21.276Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://restmonkeys.com"/>
     <link rel="self" href="https://restmonkeys.com/feed.atom"/>
@@ -48,5 +48,15 @@ But ...]]></summary>
         </link>
         <updated>2017-09-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Today I want to talk about one service I’ve discovered for myself last week. As you probably already got from article title it is Sentry.io. This open source project helps you to ...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Summarize on “Spring Microservices” book by Rajesh RV]]></title>
+        <id>https://restmonkeys.com/2017/09/30/book-review/</id>
+        <link href="https://restmonkeys.com/2017/09/30/book-review/">
+        </link>
+        <updated>2017-09-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently I’ve read “Spring Microservices” book by Rajesh RV and here I want to try to summarize it. The book was published in June 2016. But, it seems, it is still relevant.
+
+![](../images/201 ...]]></summary>
     </entry>
 </feed>
