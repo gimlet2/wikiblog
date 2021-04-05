@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://restmonkeys.com</id>
     <title>Andrei&apos;s tech blog</title>
-    <updated>2021-04-05T12:46:21.276Z</updated>
+    <updated>2021-04-05T13:36:42.106Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://restmonkeys.com"/>
     <link rel="self" href="https://restmonkeys.com/feed.atom"/>
@@ -29,7 +29,7 @@
         <link href="https://restmonkeys.com/2017/07/21/code-shaing/">
         </link>
         <updated>2017-07-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — [Kotlin-Native](https://github.com/JetBrain ...]]></summary>
+        <summary type="html"><![CDATA[Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — Kotlin-Native. Kotlin-Native al ...]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kafka usage — tips&hints]]></title>
@@ -57,6 +57,6 @@ But ...]]></summary>
         <updated>2017-09-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Recently I’ve read “Spring Microservices” book by Rajesh RV and here I want to try to summarize it. The book was published in June 2016. But, it seems, it is still relevant.
 
-![](../images/201 ...]]></summary>
+Microservice ...]]></summary>
     </entry>
 </feed>

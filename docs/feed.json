@@ -23,8 +23,8 @@
             "id": "https://restmonkeys.com/2017/07/21/code-shaing/",
             "url": "https://restmonkeys.com/2017/07/21/code-shaing/",
             "title": "Code sharing between Kotlin and Kotlin-Native",
-            "summary": "Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — [Kotlin-Native](https://github.com/JetBrain ...",
-            "image": "https://restmonkeys.com/../images/2017-07-21-1.jpeg",
+            "summary": "Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — Kotlin-Native. Kotlin-Native al ...",
+            "image": "https://restmonkeys.com/./images/2017-07-21-1.jpeg",
             "date_modified": "2017-07-21T00:00:00.000Z"
         },
         {
@@ -45,8 +45,8 @@
             "id": "https://restmonkeys.com/2017/09/30/book-review/",
             "url": "https://restmonkeys.com/2017/09/30/book-review/",
             "title": "Summarize on “Spring Microservices” book by Rajesh RV",
-            "summary": "Recently I’ve read “Spring Microservices” book by Rajesh RV and here I want to try to summarize it. The book was published in June 2016. But, it seems, it is still relevant.\n\n![](../images/201 ...",
-            "image": "https://restmonkeys.com/../images/2017-09-30-1.jpeg",
+            "summary": "Recently I’ve read “Spring Microservices” book by Rajesh RV and here I want to try to summarize it. The book was published in June 2016. But, it seems, it is still relevant.\n\nMicroservice ...",
+            "image": "https://restmonkeys.com/./images/2017-09-30-1.jpeg",
             "date_modified": "2017-09-30T00:00:00.000Z"
         }
     ]
