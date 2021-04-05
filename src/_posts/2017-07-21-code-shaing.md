@@ -8,13 +8,11 @@ tags:
 
 ---
 
-![](../images/2017-07-21-1.jpeg)
-
 Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — [Kotlin-Native](https://github.com/JetBrains/kotlin-native). Kotlin-Native allows us to build native apps. It based on [LLVM](http://llvm.org/) compiler and supports various of platforms. It still somewhere far from being production ready but we already have the third release — [version&nbsp;0.3](https://github.com/JetBrains/kotlin-native/releases/tag/v0.3)
 
-I have one let’s say pet-project I’ve already [wrote](https://dev.to/gimlet2/kottpd--http-server-in-pure-kotlin-3bi7-temp-slug-3595491) about — [kottpd](https://github.com/gimlet2/kottpd). It is simple HTTP-server written entirely in Kotlin. From this two facts I’ve made obvious decision — I need to try to port my library to Kotlin-Native! But that is not only for fun. There is one dream behind it — to make it possible to build web apps in Kotlin but with possibility to run them with native performance.
+I have one let’s say pet-project I’ve already [wrote](/2016/11/16/kottpd/) about — [kottpd](https://github.com/gimlet2/kottpd). It is simple HTTP-server written entirely in Kotlin. From this two facts I’ve made obvious decision — I need to try to port my library to Kotlin-Native! But that is not only for fun. There is one dream behind it — to make it possible to build web apps in Kotlin but with possibility to run them with native performance.
 <!-- more -->
-
+![](./images/2017-07-21-1.jpeg)
 Well, to be honest, it is only an experiment for now. But let’s see where this experiment will lead&nbsp;later.
 
 As a first step I’ve cut all unimportant parts out — SSL support, files serving, exception handling and even multi-thread support. And it still was able to serve HTTP requests. Great! Let’s move&nbsp;on.

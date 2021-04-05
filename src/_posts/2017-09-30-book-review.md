@@ -10,12 +10,12 @@ tags:
 
 Recently I’ve read **“Spring Microservices”** book by **Rajesh RV** and here I want to try to summarize it. The book was published in June 2016. But, it seems, it is still relevant.
 
-![](../images/2017-09-30-1.jpeg)
-
 #### Microservices isn’t just for developers pleasure but also business&nbsp;demand.
 
 Yes, sure, it’s extremely interesting and fun to plan and implement scalable and distributed systems but developers should always keep in mind why we are doing that — to evaluate faster on business processes, reduce the cost of the experiment.
 <!-- more -->
+![](./images/2017-09-30-1.jpeg)
+
 #### Meaningful health check is important
 
 Self-healing is significant for microservice architecture. And to provide it your service has to report its health state accurate. For example, your service is deployed in **Kubernetes** cluster and exposes **/health** endpoint. Then it will be possible to restart it in case of failure and reroute traffic to a health node instead. Also, it helps you to understand your app better, know all significant dependencies and requirements.

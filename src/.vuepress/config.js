@@ -21,13 +21,6 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@alias': 'src/images'
-      }
-    }
-  },
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -53,6 +46,18 @@ module.exports = {
       //   link: 'https://v1.vuepress.vuejs.org'
       // }
     ],
+    footer: {
+      contact: [
+        {
+          type: 'github',
+          link: 'https://github.com/gimlet2',
+        },
+        {
+          type: 'twitter',
+          link: 'https://twitter.com/gimlet2',
+        },
+      ],
+    },
     sidebar: {
       '/guide/': [
         {
