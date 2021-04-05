@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://restmonkeys.com</id>
     <title>Andrei&apos;s tech blog</title>
-    <updated>2021-04-05T12:26:06.097Z</updated>
+    <updated>2021-04-05T12:29:01.525Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://restmonkeys.com"/>
     <link rel="self" href="https://restmonkeys.com/feed.atom"/>
@@ -30,5 +30,15 @@
         </link>
         <updated>2017-07-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — [Kotlin-Native](https://github.com/JetBrain ...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kafka usage — tips&hints]]></title>
+        <id>https://restmonkeys.com/2017/08/13/kafka/</id>
+        <link href="https://restmonkeys.com/2017/08/13/kafka/">
+        </link>
+        <updated>2017-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we will talk about Apache Kafka. As you probably already know, Kafka is “a distributed streaming platform”, so it could be used as Queue, Message Bus,&nbsp;etc.
+
+But ...]]></summary>
     </entry>
 </feed>

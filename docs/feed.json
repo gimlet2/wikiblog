@@ -26,6 +26,13 @@
             "summary": "Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — [Kotlin-Native](https://github.com/JetBrain ...",
             "image": "https://restmonkeys.com/../images/2017-07-21-1.jpeg",
             "date_modified": "2017-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2017/08/13/kafka/",
+            "url": "https://restmonkeys.com/2017/08/13/kafka/",
+            "title": "Kafka usage — tips&hints",
+            "summary": "Today we will talk about Apache Kafka. As you probably already know, Kafka is “a distributed streaming platform”, so it could be used as Queue, Message Bus,&nbsp;etc.\n\nBut ...",
+            "date_modified": "2017-08-13T00:00:00.000Z"
         }
     ]
 }
