@@ -4,7 +4,7 @@
         <title>Andrei&apos;s tech blog</title>
         <link>https://restmonkeys.com</link>
         <description>restmonkeys.com blog</description>
-        <lastBuildDate>Mon, 05 Apr 2021 13:51:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Apr 2021 14:03:35 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://restmonkeys.com/feed.atom" rel="self" type="application/rss+xml"/>
@@ -65,6 +65,15 @@ Microservice ...]]></description>
             <pubDate>Wed, 15 Nov 2017 00:00:00 GMT</pubDate>
             <description><![CDATA[Today we’ve started a new thing in our company(just in case you wondering it’s Outfittery Gmbh) — “8 minutes of fame”. This thing has one idea behind — small lightning talks 8 minutes each. It expecte ...]]></description>
             <enclosure url="https://restmonkeys.com/./images/2017-11-15-1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Setup Go project - for JVM developers]]></title>
+            <link>https://restmonkeys.com/2018/01/06/go/</link>
+            <guid>https://restmonkeys.com/2018/01/06/go/</guid>
+            <pubDate>Sat, 06 Jan 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[I have been doing development for JVM platform for quite some time already. It was Java back in time, now it is Kotlin. And everything seems logical here — here is your Maven , **Gradl ...]]></description>
+            <enclosure url="https://restmonkeys.com/./images/2018-01-06-1.png">
             </enclosure>
         </item>
     </channel>

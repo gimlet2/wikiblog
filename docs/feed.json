@@ -56,6 +56,14 @@
             "summary": "Today we’ve started a new thing in our company(just in case you wondering it’s Outfittery Gmbh) — “8 minutes of fame”. This thing has one idea behind — small lightning talks 8 minutes each. It expecte ...",
             "image": "https://restmonkeys.com/./images/2017-11-15-1.png",
             "date_modified": "2017-11-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2018/01/06/go/",
+            "url": "https://restmonkeys.com/2018/01/06/go/",
+            "title": "Setup Go project - for JVM developers",
+            "summary": "I have been doing development for JVM platform for quite some time already. It was Java back in time, now it is Kotlin. And everything seems logical here — here is your Maven , **Gradl ...",
+            "image": "https://restmonkeys.com/./images/2018-01-06-1.png",
+            "date_modified": "2018-01-06T00:00:00.000Z"
         }
     ]
 }
