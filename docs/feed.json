@@ -48,6 +48,14 @@
             "summary": "Recently I’ve read “Spring Microservices” book by Rajesh RV and here I want to try to summarize it. The book was published in June 2016. But, it seems, it is still relevant.\n\nMicroservice ...",
             "image": "https://restmonkeys.com/./images/2017-09-30-1.jpeg",
             "date_modified": "2017-09-30T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2017/11/15/fzf/",
+            "url": "https://restmonkeys.com/2017/11/15/fzf/",
+            "title": "8 minutes of fame — fzf talk",
+            "summary": "Today we’ve started a new thing in our company(just in case you wondering it’s Outfittery Gmbh) — “8 minutes of fame”. This thing has one idea behind — small lightning talks 8 minutes each. It expecte ...",
+            "image": "https://restmonkeys.com/./images/2017-11-15-1.png",
+            "date_modified": "2017-11-15T00:00:00.000Z"
         }
     ]
 }
