@@ -13,7 +13,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     
-    <link rel="preload" href="/assets/css/0.styles.eb280cdd.css" as="style"><link rel="preload" href="/assets/js/app.bb0c5adf.js" as="script"><link rel="preload" href="/assets/js/6.e95c38f8.js" as="script"><link rel="preload" href="/assets/js/3.fff0813a.js" as="script"><link rel="preload" href="/assets/js/24.a0e78e3d.js" as="script"><link rel="prefetch" href="/assets/js/10.97c218b7.js"><link rel="prefetch" href="/assets/js/11.457c9032.js"><link rel="prefetch" href="/assets/js/12.101b0f20.js"><link rel="prefetch" href="/assets/js/13.76df7937.js"><link rel="prefetch" href="/assets/js/14.cc4c6c53.js"><link rel="prefetch" href="/assets/js/15.a46a7518.js"><link rel="prefetch" href="/assets/js/16.2a2931f8.js"><link rel="prefetch" href="/assets/js/17.9d7dc5ae.js"><link rel="prefetch" href="/assets/js/18.cf01e316.js"><link rel="prefetch" href="/assets/js/19.17629d7b.js"><link rel="prefetch" href="/assets/js/20.69b8495e.js"><link rel="prefetch" href="/assets/js/21.473e1343.js"><link rel="prefetch" href="/assets/js/22.cde2f64f.js"><link rel="prefetch" href="/assets/js/23.0e4b4d2f.js"><link rel="prefetch" href="/assets/js/4.694138ee.js"><link rel="prefetch" href="/assets/js/5.c3b94c1f.js"><link rel="prefetch" href="/assets/js/7.f1a4d31e.js"><link rel="prefetch" href="/assets/js/8.077201e3.js"><link rel="prefetch" href="/assets/js/9.2da52cfa.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.f5a07918.js">
+    <link rel="preload" href="/assets/css/0.styles.eb280cdd.css" as="style"><link rel="preload" href="/assets/js/app.3c7a7ba8.js" as="script"><link rel="preload" href="/assets/js/6.e95c38f8.js" as="script"><link rel="preload" href="/assets/js/3.fff0813a.js" as="script"><link rel="preload" href="/assets/js/24.c5713777.js" as="script"><link rel="prefetch" href="/assets/js/10.97c218b7.js"><link rel="prefetch" href="/assets/js/11.457c9032.js"><link rel="prefetch" href="/assets/js/12.101b0f20.js"><link rel="prefetch" href="/assets/js/13.76df7937.js"><link rel="prefetch" href="/assets/js/14.cc4c6c53.js"><link rel="prefetch" href="/assets/js/15.a46a7518.js"><link rel="prefetch" href="/assets/js/16.2a2931f8.js"><link rel="prefetch" href="/assets/js/17.9d7dc5ae.js"><link rel="prefetch" href="/assets/js/18.cf01e316.js"><link rel="prefetch" href="/assets/js/19.17629d7b.js"><link rel="prefetch" href="/assets/js/20.69b8495e.js"><link rel="prefetch" href="/assets/js/21.473e1343.js"><link rel="prefetch" href="/assets/js/22.cde2f64f.js"><link rel="prefetch" href="/assets/js/23.0e4b4d2f.js"><link rel="prefetch" href="/assets/js/4.694138ee.js"><link rel="prefetch" href="/assets/js/5.c3b94c1f.js"><link rel="prefetch" href="/assets/js/7.f1a4d31e.js"><link rel="prefetch" href="/assets/js/8.077201e3.js"><link rel="prefetch" href="/assets/js/9.2da52cfa.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.f5a07918.js">
     <link rel="stylesheet" href="/assets/css/0.styles.eb280cdd.css">
   </head>
   <body>
@@ -23,38 +23,38 @@
       Wed Apr 18 2018
     </time></div> <ul itemprop="keywords" class="post-meta-tags"><li class="post-tag" data-v-42ccfcd5><a href="/tag/spring-boot" data-v-42ccfcd5><span data-v-42ccfcd5>spring-boot</span></a></li><li class="post-tag" data-v-42ccfcd5><a href="/tag/java" data-v-42ccfcd5><span data-v-42ccfcd5>java</span></a></li><li class="post-tag" data-v-42ccfcd5><a href="/tag/docker" data-v-42ccfcd5><span data-v-42ccfcd5>docker</span></a></li><li class="post-tag" data-v-42ccfcd5><a href="/tag/devops" data-v-42ccfcd5><span data-v-42ccfcd5>devops</span></a></li></ul></div></header> <div itemprop="articleBody" class="content__default"><p>In my previous <a href="/2018/03/26/java10/">article</a> I’ve been talking about using <strong>Java 10</strong> to build and run your <a href="https://projects.spring.io/spring-boot/" target="_blank" rel="noopener noreferrer"><strong>Spring Boot</strong><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> app. Now it is time to talk how to put it in Docker container. Better support of containerization was one of the main features of Java 10 release. So, let’s go!
 
-That is fairly simple process, so just take a look on following code snippet:</p> <div class="language-dockerfile extra-class"><pre class="language-dockerfile"><code><span class="token keyword">FROM</span> debian<span class="token punctuation">:</span>9<span class="token punctuation">-</span>slim AS builder
+That is fairly simple process, so just take a look on following code snippet:</p> <div class="language-dockerfile extra-class"><pre class="language-dockerfile"><code><span class="token instruction"><span class="token keyword">FROM</span> debian:9-slim <span class="token keyword">AS</span> builder</span>
 
-<span class="token keyword">RUN</span> set <span class="token punctuation">-</span>ex &amp;&amp; \
-    apt<span class="token punctuation">-</span>get update &amp;&amp; apt<span class="token punctuation">-</span>get install <span class="token punctuation">-</span>y wget unzip &amp;&amp; \
-    wget https<span class="token punctuation">:</span>//download.java.net/java/GA/jdk11/9/GPL/openjdk<span class="token punctuation">-</span>11.0.2_linux<span class="token punctuation">-</span>x64_bin.tar.gz <span class="token punctuation">-</span>nv <span class="token punctuation">-</span>O jdk.tar.gz <span class="token punctuation">-</span>nv &amp;&amp; \
-    mkdir <span class="token punctuation">-</span>p /opt/jdk &amp;&amp; \
-    tar zxvf jdk.tar.gz <span class="token punctuation">-</span>C /opt/jdk <span class="token punctuation">-</span><span class="token punctuation">-</span>strip<span class="token punctuation">-</span>components=1 &amp;&amp; \
-    rm jdk.tar.gz &amp;&amp; \
-    rm /opt/jdk/lib/src.zip
+<span class="token instruction"><span class="token keyword">RUN</span> set -ex &amp;&amp; <span class="token operator">\</span>
+    apt-get update &amp;&amp; apt-get install -y wget unzip &amp;&amp; <span class="token operator">\</span>
+    wget https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz -nv -O jdk.tar.gz -nv &amp;&amp; <span class="token operator">\</span>
+    mkdir -p /opt/jdk &amp;&amp; <span class="token operator">\</span>
+    tar zxvf jdk.tar.gz -C /opt/jdk --strip-components=1 &amp;&amp; <span class="token operator">\</span>
+    rm jdk.tar.gz &amp;&amp; <span class="token operator">\</span>
+    rm /opt/jdk/lib/src.zip</span>
 
-<span class="token keyword">RUN</span> /opt/jdk/bin/jlink \
-    <span class="token punctuation">-</span><span class="token punctuation">-</span>module<span class="token punctuation">-</span>path /opt/jdk/jmods \
-    <span class="token punctuation">-</span><span class="token punctuation">-</span>verbose \
-    <span class="token punctuation">-</span><span class="token punctuation">-</span>add<span class="token punctuation">-</span>modules java.base<span class="token punctuation">,</span>java.logging<span class="token punctuation">,</span>java.xml<span class="token punctuation">,</span>jdk.unsupported<span class="token punctuation">,</span>java.sql<span class="token punctuation">,</span>java.naming<span class="token punctuation">,</span>java.desktop<span class="token punctuation">,</span>java.management<span class="token punctuation">,</span>java.security.jgss<span class="token punctuation">,</span>java.instrument \
-    <span class="token punctuation">-</span><span class="token punctuation">-</span>output /opt/jdk<span class="token punctuation">-</span>minimal \
-    <span class="token punctuation">-</span><span class="token punctuation">-</span>compress 2 \
-    <span class="token punctuation">-</span><span class="token punctuation">-</span>no<span class="token punctuation">-</span>header<span class="token punctuation">-</span>files
+<span class="token instruction"><span class="token keyword">RUN</span> /opt/jdk/bin/jlink <span class="token operator">\</span>
+    --module-path /opt/jdk/jmods <span class="token operator">\</span>
+    --verbose <span class="token operator">\</span>
+    --add-modules java.base,java.logging,java.xml,jdk.unsupported,java.sql,java.naming,java.desktop,java.management,java.security.jgss,java.instrument <span class="token operator">\</span>
+    --output /opt/jdk-minimal <span class="token operator">\</span>
+    --compress 2 <span class="token operator">\</span>
+    --no-header-files</span>
 
 <span class="token comment"># Second stage, add only our custom jdk9 distro and our app</span>
-<span class="token keyword">FROM</span> debian<span class="token punctuation">:</span>9<span class="token punctuation">-</span>slim
-<span class="token keyword">COPY</span> <span class="token punctuation">-</span><span class="token punctuation">-</span>from=builder /opt/jdk<span class="token punctuation">-</span>minimal /opt/jdk<span class="token punctuation">-</span>minimal
+<span class="token instruction"><span class="token keyword">FROM</span> debian:9-slim</span>
+<span class="token instruction"><span class="token keyword">COPY</span> <span class="token options"><span class="token property">--from</span><span class="token punctuation">=</span><span class="token string">builder</span></span> /opt/jdk-minimal /opt/jdk-minimal</span>
 
-<span class="token keyword">ENV</span> JAVA_HOME=/opt/jdk<span class="token punctuation">-</span>minimal
-<span class="token keyword">ENV</span> PATH=<span class="token string">&quot;$PATH:$JAVA_HOME/bin&quot;</span>
-<span class="token keyword">ENV</span> APP_TIMEZONE=UTC
+<span class="token instruction"><span class="token keyword">ENV</span> JAVA_HOME=/opt/jdk-minimal</span>
+<span class="token instruction"><span class="token keyword">ENV</span> PATH=<span class="token string">&quot;$PATH:$JAVA_HOME/bin&quot;</span></span>
+<span class="token instruction"><span class="token keyword">ENV</span> APP_TIMEZONE=UTC</span>
 
-<span class="token keyword">EXPOSE</span> 8080
-<span class="token keyword">ENTRYPOINT</span> <span class="token punctuation">[</span><span class="token string">&quot;/launch.sh&quot;</span><span class="token punctuation">]</span>
-<span class="token keyword">COPY</span> launch.sh /
-<span class="token keyword">RUN</span> chmod +x /launch.sh
+<span class="token instruction"><span class="token keyword">EXPOSE</span> 8080</span>
+<span class="token instruction"><span class="token keyword">ENTRYPOINT</span> [<span class="token string">&quot;/launch.sh&quot;</span>]</span>
+<span class="token instruction"><span class="token keyword">COPY</span> launch.sh /</span>
+<span class="token instruction"><span class="token keyword">RUN</span> chmod +x /launch.sh</span>
 
-<span class="token keyword">COPY</span> build/libs/you<span class="token punctuation">-</span>app.jar /app.jar
+<span class="token instruction"><span class="token keyword">COPY</span> build/libs/you-app.jar /app.jar</span>
 </code></pre></div><p>Here, as you can see, I use multi-stage Docker build file. Quick note: multi-stage builds are supported with <strong>Docker 17.05</strong> or higher but result image is backward compatible(at least from my experience). On the first stage it downloads <strong>JDK</strong> from Oracle’s, but it can make sense to store your own copy somewhere closer to your build server since it isn’t that small — a little bit less then 200mb. So, it is downloaded, unziped and ready to be used. But not so quick.</p> <p>As you probably remember, <strong>Java 9</strong> gave us module system and <strong>JDK</strong> itself is also modularized. That means we don’t have to bring whole <strong>JDK</strong> to production but we could build our own striped version specifically for our app’s needs. There is jlink tool provided for that. Just take a look how it is used in the build process. The modules listed there should be enough to run a typical <strong>Spring Boot</strong> application. In my production case I had to put java.scripting, jdk.scripting.nashorn to the list as well.</p> <p>On the second stage it copies results from previous one, defines some environment variables, exposes port, copy launch.sh and app’s artifact. Not a rocket science at all.</p> <p>And here is launch.sh script I’ve just mentioned:</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
 
 <span class="token function-name function">check_var</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
@@ -80,6 +80,6 @@ java <span class="token variable">${JAVA_OPTS}</span> -jar /app.jar
         </a></li><li class="contact-item" data-v-3d9deeb8><a href="https://twitter.com/gimlet2" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-3d9deeb8><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter" data-v-3d9deeb8><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" data-v-3d9deeb8></path></svg>
           
         </a></li></ul></div> <div class="footer-right-wrap" data-v-3d9deeb8><ul class="copyright" data-v-3d9deeb8></ul></div></footer></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.bb0c5adf.js" defer></script><script src="/assets/js/6.e95c38f8.js" defer></script><script src="/assets/js/3.fff0813a.js" defer></script><script src="/assets/js/24.a0e78e3d.js" defer></script>
+    <script src="/assets/js/app.3c7a7ba8.js" defer></script><script src="/assets/js/6.e95c38f8.js" defer></script><script src="/assets/js/3.fff0813a.js" defer></script><script src="/assets/js/24.c5713777.js" defer></script>
   </body>
 </html>
