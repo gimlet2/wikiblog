@@ -78,6 +78,12 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-42249905-1'
+      }
+    ]
     ['@vuepress/blog', {
       feed: {
         canonical_base: 'https://restmonkeys.com',
