@@ -83,7 +83,7 @@ module.exports = {
       {
         'ga': 'UA-42249905-1'
       }
-    ]
+    ],
     ['@vuepress/blog', {
       feed: {
         canonical_base: 'https://restmonkeys.com',
