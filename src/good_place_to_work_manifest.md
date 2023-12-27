@@ -18,5 +18,4 @@
 16. We love tests and automations.
 17. We are open and transparent in internal communication.
 18. We are not obsess with perfection, instead we do iterate.
-19. 
  
