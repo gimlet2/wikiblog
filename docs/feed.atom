@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://restmonkeys.com</id>
     <title>RestMonkeys tech blog</title>
-    <updated>2021-07-03T20:17:49.481Z</updated>
+    <updated>2023-12-27T21:35:46.246Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://restmonkeys.com"/>
     <link rel="self" href="https://restmonkeys.com/feed.atom"/>
@@ -16,20 +16,20 @@
         <summary type="html"><![CDATA[Build a blog with VuePress. With static site generator, it's pretty easy to build your own blog. If you're familiar with Vue, VuePress could be a good choice. Even though you've never used vue before, you can still use the out-of-box theme.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kottpd — HTTP Server in pure Kotlin]]></title>
-        <id>https://restmonkeys.com/2016/11/16/kottpd/</id>
-        <link href="https://restmonkeys.com/2016/11/16/kottpd/">
-        </link>
-        <updated>2016-11-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Code sharing between Kotlin and Kotlin-Native]]></title>
         <id>https://restmonkeys.com/2017/07/21/code-shaing/</id>
         <link href="https://restmonkeys.com/2017/07/21/code-shaing/">
         </link>
         <updated>2017-07-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — Kotlin-Native. Kotlin-Native al ...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kottpd — HTTP Server in pure Kotlin]]></title>
+        <id>https://restmonkeys.com/2016/11/16/kottpd/</id>
+        <link href="https://restmonkeys.com/2016/11/16/kottpd/">
+        </link>
+        <updated>2016-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kafka usage — tips&hints]]></title>
@@ -76,20 +76,20 @@ Microservice ...]]></summary>
         <summary type="html"><![CDATA[I have been doing development for JVM platform for quite some time already. It was Java back in time, now it is Kotlin. And everything seems logical here — here is your Maven , **Gradl ...]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Prometheus, Python, Flask]]></title>
-        <id>https://restmonkeys.com/2018/02/02/flask/</id>
-        <link href="https://restmonkeys.com/2018/02/02/flask/">
-        </link>
-        <updated>2018-02-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Python based apps are significant part of the ecosystem in our company. In the era of microservices there is really no difference which technology is in use under the hood. But each service should ...]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Kotlin for Pebble]]></title>
         <id>https://restmonkeys.com/2018/02/16/pebble/</id>
         <link href="https://restmonkeys.com/2018/02/16/pebble/">
         </link>
         <updated>2018-02-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The best Smartwatchs are Pebble. Even taking into account that the company producing them was sold, and there will be no more new devices it is still best smartwatchs yo ...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prometheus, Python, Flask]]></title>
+        <id>https://restmonkeys.com/2018/02/02/flask/</id>
+        <link href="https://restmonkeys.com/2018/02/02/flask/">
+        </link>
+        <updated>2018-02-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Python based apps are significant part of the ecosystem in our company. In the era of microservices there is really no difference which technology is in use under the hood. But each service should ...]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Karma.js, Headless Chrome and Docker]]></title>
