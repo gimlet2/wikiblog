@@ -8,15 +8,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4.1.1
 
       - name: Build 🔧
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
         run: |
           yarn install
           yarn build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+        uses: JamesIves/github-pages-deploy-action@4.5.0
         with:
           branch: master # The branch the action should deploy to.
           folder: src/.vuepress/dist # The folder the action should deploy.

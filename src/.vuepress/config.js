@@ -32,11 +32,13 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    displayAllHeaders: true,
     nav: [
-      // {
-      //   text: 'Guide',
-      //   link: '/guide/',
-      // },
+      {
+        text: 'Manifest',
+        link: '/good_place_to_work_manifest.html', 
+        
+      },
       // {
       //   text: 'Config',
       //   link: '/config/'
