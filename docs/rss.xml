@@ -4,19 +4,10 @@
         <title>RestMonkeys tech blog</title>
         <link>https://restmonkeys.com</link>
         <description>restmonkeys.com blog</description>
-        <lastBuildDate>Sat, 17 May 2025 16:13:04 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 May 2025 16:13:10 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://restmonkeys.com/feed.atom" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[Code sharing between Kotlin and Kotlin-Native]]></title>
-            <link>https://restmonkeys.com/2017/07/21/code-shaing/</link>
-            <guid>https://restmonkeys.com/2017/07/21/code-shaing/</guid>
-            <pubDate>Fri, 21 Jul 2017 00:00:00 GMT</pubDate>
-            <description><![CDATA[Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — Kotlin-Native. Kotlin-Native al ...]]></description>
-            <enclosure url="https://restmonkeys.com/./images/2017-07-21-1.jpeg">
-            </enclosure>
-        </item>
         <item>
             <title><![CDATA[Kata for software developers]]></title>
             <link>https://restmonkeys.com/2016/05/05/kata/</link>
@@ -32,6 +23,15 @@
             <description><![CDATA[Today we will talk about Apache Kafka. As you probably already know, Kafka is “a distributed streaming platform”, so it could be used as Queue, Message Bus,&nbsp;etc.
 
 But ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Code sharing between Kotlin and Kotlin-Native]]></title>
+            <link>https://restmonkeys.com/2017/07/21/code-shaing/</link>
+            <guid>https://restmonkeys.com/2017/07/21/code-shaing/</guid>
+            <pubDate>Fri, 21 Jul 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — Kotlin-Native. Kotlin-Native al ...]]></description>
+            <enclosure url="https://restmonkeys.com/./images/2017-07-21-1.jpeg">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[Sentri.io — errors handling]]></title>
@@ -52,13 +52,6 @@ Microservice ...]]></description>
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[Kottpd — HTTP Server in pure Kotlin]]></title>
-            <link>https://restmonkeys.com/2016/11/16/kottpd/</link>
-            <guid>https://restmonkeys.com/2016/11/16/kottpd/</guid>
-            <pubDate>Wed, 16 Nov 2016 00:00:00 GMT</pubDate>
-            <description><![CDATA[In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...]]></description>
-        </item>
-        <item>
             <title><![CDATA[8 minutes of fame — fzf talk]]></title>
             <link>https://restmonkeys.com/2017/11/15/fzf/</link>
             <guid>https://restmonkeys.com/2017/11/15/fzf/</guid>
@@ -66,13 +59,6 @@ Microservice ...]]></description>
             <description><![CDATA[Today we’ve started a new thing in our company(just in case you wondering it’s Outfittery Gmbh) — “8 minutes of fame”. This thing has one idea behind — small lightning talks 8 minutes each. It expecte ...]]></description>
             <enclosure url="https://restmonkeys.com/./images/2017-11-15-1.png">
             </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Prometheus, Python, Flask]]></title>
-            <link>https://restmonkeys.com/2018/02/02/flask/</link>
-            <guid>https://restmonkeys.com/2018/02/02/flask/</guid>
-            <pubDate>Fri, 02 Feb 2018 00:00:00 GMT</pubDate>
-            <description><![CDATA[Python based apps are significant part of the ecosystem in our company. In the era of microservices there is really no difference which technology is in use under the hood. But each service should ...]]></description>
         </item>
         <item>
             <title><![CDATA[Setup Go project - for JVM developers]]></title>
@@ -84,13 +70,27 @@ Microservice ...]]></description>
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[Karma.js, Headless Chrome and Docker]]></title>
-            <link>https://restmonkeys.com/2018/03/03/karma/</link>
-            <guid>https://restmonkeys.com/2018/03/03/karma/</guid>
-            <pubDate>Sat, 03 Mar 2018 00:00:00 GMT</pubDate>
-            <description><![CDATA[Today I’ve come back to frontend project I’m involved. I have no idea what have happened while I was away for different things but our Karma.js tests stop&nbsp;working.
-
-The project is done with * ...]]></description>
+            <title><![CDATA[Kottpd — HTTP Server in pure Kotlin]]></title>
+            <link>https://restmonkeys.com/2016/11/16/kottpd/</link>
+            <guid>https://restmonkeys.com/2016/11/16/kottpd/</guid>
+            <pubDate>Wed, 16 Nov 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Prometheus, Python, Flask]]></title>
+            <link>https://restmonkeys.com/2018/02/02/flask/</link>
+            <guid>https://restmonkeys.com/2018/02/02/flask/</guid>
+            <pubDate>Fri, 02 Feb 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Python based apps are significant part of the ecosystem in our company. In the era of microservices there is really no difference which technology is in use under the hood. But each service should ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Kotlin for Pebble]]></title>
+            <link>https://restmonkeys.com/2018/02/16/pebble/</link>
+            <guid>https://restmonkeys.com/2018/02/16/pebble/</guid>
+            <pubDate>Fri, 16 Feb 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[The best Smartwatchs are Pebble. Even taking into account that the company producing them was sold, and there will be no more new devices it is still best smartwatchs yo ...]]></description>
+            <enclosure url="https://restmonkeys.com/./images/2018-02-16-1.jpeg">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[Java 10 — migration story]]></title>
@@ -102,13 +102,13 @@ The project is done with * ...]]></description>
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[Kotlin for Pebble]]></title>
-            <link>https://restmonkeys.com/2018/02/16/pebble/</link>
-            <guid>https://restmonkeys.com/2018/02/16/pebble/</guid>
-            <pubDate>Fri, 16 Feb 2018 00:00:00 GMT</pubDate>
-            <description><![CDATA[The best Smartwatchs are Pebble. Even taking into account that the company producing them was sold, and there will be no more new devices it is still best smartwatchs yo ...]]></description>
-            <enclosure url="https://restmonkeys.com/./images/2018-02-16-1.jpeg">
-            </enclosure>
+            <title><![CDATA[Karma.js, Headless Chrome and Docker]]></title>
+            <link>https://restmonkeys.com/2018/03/03/karma/</link>
+            <guid>https://restmonkeys.com/2018/03/03/karma/</guid>
+            <pubDate>Sat, 03 Mar 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today I’ve come back to frontend project I’m involved. I have no idea what have happened while I was away for different things but our Karma.js tests stop&nbsp;working.
+
+The project is done with * ...]]></description>
         </item>
         <item>
             <title><![CDATA[Dockerizing Java 10 Spring Boot app]]></title>
