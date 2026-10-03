@@ -13,11 +13,11 @@
             "date_modified": "2016-05-05T00:00:00.000Z"
         },
         {
-            "id": "https://restmonkeys.com/2017/08/13/kafka/",
-            "url": "https://restmonkeys.com/2017/08/13/kafka/",
-            "title": "Kafka usage — tips&hints",
-            "summary": "Today we will talk about Apache Kafka. As you probably already know, Kafka is “a distributed streaming platform”, so it could be used as Queue, Message Bus,&nbsp;etc.\n\nBut ...",
-            "date_modified": "2017-08-13T00:00:00.000Z"
+            "id": "https://restmonkeys.com/2016/11/16/kottpd/",
+            "url": "https://restmonkeys.com/2016/11/16/kottpd/",
+            "title": "Kottpd — HTTP Server in pure Kotlin",
+            "summary": "In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...",
+            "date_modified": "2016-11-16T00:00:00.000Z"
         },
         {
             "id": "https://restmonkeys.com/2017/07/21/code-shaing/",
@@ -26,6 +26,13 @@
             "summary": "Nowadays when popularity of Kotlin grows faster then ever JetBrains puts a lot of energy to bring us new Kotlin universe — Kotlin-Native. Kotlin-Native al ...",
             "image": "https://restmonkeys.com/./images/2017-07-21-1.jpeg",
             "date_modified": "2017-07-21T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2017/08/13/kafka/",
+            "url": "https://restmonkeys.com/2017/08/13/kafka/",
+            "title": "Kafka usage — tips&hints",
+            "summary": "Today we will talk about Apache Kafka. As you probably already know, Kafka is “a distributed streaming platform”, so it could be used as Queue, Message Bus,&nbsp;etc.\n\nBut ...",
+            "date_modified": "2017-08-13T00:00:00.000Z"
         },
         {
             "id": "https://restmonkeys.com/2017/09/13/sentri/",
@@ -59,13 +66,6 @@
             "date_modified": "2018-01-06T00:00:00.000Z"
         },
         {
-            "id": "https://restmonkeys.com/2016/11/16/kottpd/",
-            "url": "https://restmonkeys.com/2016/11/16/kottpd/",
-            "title": "Kottpd — HTTP Server in pure Kotlin",
-            "summary": "In today’s post I would like to talk about one of the projects I’m working on. I define it as light HTTP framework and it is made in pure Kotlin. Based on these two f ...",
-            "date_modified": "2016-11-16T00:00:00.000Z"
-        },
-        {
             "id": "https://restmonkeys.com/2018/02/02/flask/",
             "url": "https://restmonkeys.com/2018/02/02/flask/",
             "title": "Prometheus, Python, Flask",
@@ -81,6 +81,13 @@
             "date_modified": "2018-02-16T00:00:00.000Z"
         },
         {
+            "id": "https://restmonkeys.com/2018/03/03/karma/",
+            "url": "https://restmonkeys.com/2018/03/03/karma/",
+            "title": "Karma.js, Headless Chrome and Docker",
+            "summary": "Today I’ve come back to frontend project I’m involved. I have no idea what have happened while I was away for different things but our Karma.js tests stop&nbsp;working.\n\nThe project is done with * ...",
+            "date_modified": "2018-03-03T00:00:00.000Z"
+        },
+        {
             "id": "https://restmonkeys.com/2018/03/26/java10/",
             "url": "https://restmonkeys.com/2018/03/26/java10/",
             "title": "Java 10 — migration story",
@@ -89,18 +96,25 @@
             "date_modified": "2018-03-26T00:00:00.000Z"
         },
         {
-            "id": "https://restmonkeys.com/2018/03/03/karma/",
-            "url": "https://restmonkeys.com/2018/03/03/karma/",
-            "title": "Karma.js, Headless Chrome and Docker",
-            "summary": "Today I’ve come back to frontend project I’m involved. I have no idea what have happened while I was away for different things but our Karma.js tests stop&nbsp;working.\n\nThe project is done with * ...",
-            "date_modified": "2018-03-03T00:00:00.000Z"
-        },
-        {
             "id": "https://restmonkeys.com/2018/04/18/docker/",
             "url": "https://restmonkeys.com/2018/04/18/docker/",
             "title": "Dockerizing Java 10 Spring Boot app",
             "summary": "In my previous article I’ve been talking about using Java 10 to build and run your Spring Boot app. Now it is time to talk how ...",
             "date_modified": "2018-04-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2026/07/22/ssl/",
+            "url": "https://restmonkeys.com/2026/07/22/ssl/",
+            "title": "TLS, Certificates and Public-Key Cryptography: A Practical Deep Dive for Software Engineers",
+            "summary": "We write programs for computers. Sometimes this computers are connected and programs needs to communicate with other\nprograms. Computers are connected into network and the network - especially publ ...",
+            "date_modified": "2026-07-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://restmonkeys.com/2021/05/27/mechanical-keyboard/",
+            "url": "https://restmonkeys.com/2021/05/27/mechanical-keyboard/",
+            "title": "40% mechanical keyboard building guide",
+            "summary": "I do software engineering and time to time I see people around me caring heavy, noisy, strange looking devices - mechanical keyboards. Personally I was never demanding to keyboards I use - what I ha ...",
+            "date_modified": "2021-05-27T00:00:00.000Z"
         }
     ]
 }
