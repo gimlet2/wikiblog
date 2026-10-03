@@ -35,6 +35,10 @@ module.exports = {
     displayAllHeaders: true,
     nav: [
       {
+        text: 'Projects',
+        link: '/projects.html',
+      },
+      {
         text: 'Manifest',
         link: '/good_place_to_work_manifest.html', 
         
